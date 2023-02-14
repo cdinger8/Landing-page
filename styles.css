@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    color: #f9faf8;
+    background-color: #1f2937;
+    
+}
+
+.header-2 {
+    display: flex;
+    flex: 1;
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 64px;
+}
+
+.header-2-head {
+    width: 400px;
+    margin: 0 64px;
+}
+
+h1 {
+    color: #f9faf8;
+}
+
+.race-car {
+    height: 400px;
+    width: 600px;
+}
+
+.signup {
+    width: 100px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    border: 1;
+    color: white;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin: 18px;
+    width: 600px;
+    padding: 18px;
+    font-size: 24px;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+    
+}
