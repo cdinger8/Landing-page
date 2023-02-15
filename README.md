@@ -1,2 +1,2 @@
 # Landing-page
-landing page for odin project
+landing page for the Odin Project landing page assignment.
