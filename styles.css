@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    height: 100%vh;
 }
 
 .header {
@@ -15,6 +16,7 @@ body {
 }
 
 .header-2 {
+    
     display: flex;
     flex: 1;
     /*flex-direction: column;*/
@@ -22,7 +24,7 @@ body {
     justify-content: space-around;
     background-color: #1f2937;
     color: #e5e7eb;
-    padding: 64px;
+    padding-top: 64px;
 }
 
 .header-2-head {
@@ -35,15 +37,19 @@ h1 {
 }
 
 .race-car {
-    height: 400px;
+    height: 300px;
     width: 600px;
+    padding-bottom: 64px;
+    
 }
 
 .signup {
-    width: 100px;
+    height: 32px;
+    width: 120px;
     border-radius: 5px;
     background-color: #3882f6;
     border: 1;
+    border-color: #3882f6;
     color: white;
 }
 
@@ -58,6 +64,91 @@ h1 {
 
 a {
     color: #e5e7eb;
-    text-decoration: none;
+    text-decoration: none; 
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding-bottom: 52px;
+}
+
+.coff {
+    max-width: 200px;
+}
+
+.text {
+    text-align: center;
+    color: #1f2937;
+}
+
+.container img {
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+.inspire {
     
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.inspire p {
+    display: flex;
+    justify-content: center;
+    max-width: 40%;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    padding-bottom: 0px;
+    margin-bottom: 0;   
+}
+
+.p {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 32px;
+    padding-right: 33.333%;
+    padding-left: 90px;
+}
+
+.call-container {
+    display: flex;
+    flex: 1;
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    margin: 0 64px;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
 }
